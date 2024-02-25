@@ -1,0 +1,62 @@
+.dragmain{
+    height: 130vh; 
+    display: flex; 
+    flex-direction: column; 
+    
+   
+
+
+
+}
+.sub__drag{
+    height: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 90%;
+    
+    margin-top: 3rem;
+    
+
+
+
+
+   
+}
+.left__sub__drag{
+   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 43%;
+    color: #e0eeee;
+    margin-left: 0rem;
+    font-size: 10rem;
+    line-height: 7.9rem;
+    letter-spacing: -6px;
+    font-family: "Dirtyline 36Daysoftype 2022";
+}
+.left__sub__drag__subspan1{
+    display: block;
+    position: relative;
+    
+}
+.left__sub__drag__subspan2{
+    display: block;
+    position: relative;
+    
+    
+}
+.right__sub__drag{
+    font-size: 1.5rem;
+    line-height: 1.8rem; 
+    color:#e0eeee;
+    font-family: 'syne' , sans-serif;
+    position: relative ;
+    bottom: -10rem; 
+    right: 0rem;
+    display: flex;
+    flex-direction: column;
+}

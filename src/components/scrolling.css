@@ -1,0 +1,46 @@
+.scrolling__main{
+    background-color: rebeccapurple;
+    height: 33vh ; 
+    width: 100%;
+    margin-top: 4rem; 
+    margin-bottom: 4rem; 
+    padding-bottom: 8rem;
+}
+.scrolling__main__top{
+    display: flex;
+ 
+  white-space: nowrap;
+
+  font-size: 8rem; 
+  line-height: 1.05rem; 
+  font-family: "Dirtyline 36Daysoftype 2022";
+  color: #e0eeee; 
+  width: 100%; 
+  height: fit-content;
+
+  
+
+
+}
+.righttoleft{
+    display: flex ; 
+    height: 50%; 
+    width: 100%; 
+    animation: righttoleft 10s infinite linear;
+
+
+}
+@keyframes righttoleft {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+h1{
+    display: block;
+}
+.flex{
+    display: block;
+}
